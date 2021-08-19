@@ -1,11 +1,35 @@
-# Start your own "Can of Books" App
+# Can of Books
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Connor Boyce
+**Version**: 1.0.0 This first version is adding the basics of a login using auth0 to allow users to be authenticated when getting into their account to make changes.
 
-## What can books do?
+## Overview
+This Application will allow user to login to their own personal accounts to have the ability to archive lists of their favorite books. This could be books that are saved within a database and then unpacked for the user when they would like to see their favorite book lists.
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Getting Started
+1. The user must make a React applciation first, following with getting the neccessary installs with npm, express, axios, etc.
 
-## Use this template
+2. Once this is done you can then go ahead and start with making an account with auth 0 in order to get yourself started ith setting up a user aithentification system.
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+3. Finally following steps to having the routes respond with the back end as well as gettng that linked to auth0 will set your application up for success.
+
+## Architecture
+We ended up using auth0, React, GitHub, and some jwt tokens.
+
+## Change Log
+Made changes code to make sure it had poper routing to link to the back end.
+08/18/21 8:28pm
+
+## Credit and Collaborations
+Had help from the following: Heather Bisgaard, Charlie Fadness, Alex Payne.
+
+Name of feature: This featuer is the login and logout features
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 08/15/21
+
+Finish time: 08/18/21
+
+Actual time needed to complete: 3hours or so.
+
